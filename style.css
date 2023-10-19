@@ -10,6 +10,15 @@ li {
     padding: 0;
 }
 
+.logo {
+    color: black;
+}
+
+.navbar-brand {
+    border: 2px black solid;
+    padding: 10px;
+}
+
 /* Page Styles */
 body {
     font-family: Neometric, sans-serif;
@@ -71,7 +80,7 @@ main {
 }
 
 .left-content {
-    width: 50%;
+    width: 60%;
     height: 100vh;
     flex-shrink: 0;
 }
@@ -96,7 +105,7 @@ p {
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 50%;
+    width: 40%;
     background: #101010;
 }
 
@@ -113,7 +122,7 @@ button#talk-button {
 }
 
 img {
-    width: 200%;
+    width: 250%;
     height: 100vh;
 }
 
@@ -158,4 +167,320 @@ img {
     font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
+}
+
+
+.icon {
+    width: 200px;
+    height: 100px;
+    flex-shrink: 0;
+    margin: 10px;
+}
+
+.icons-container {
+    width: 1920px;
+    height: 300px;
+    flex-shrink: 0;
+    background: #FFF;
+}
+
+.bridge-image {
+    width: 100%;
+    flex-shrink: 0;
+    height: 90vh;
+    margin-right: 20px;
+
+}
+
+.bridge-matter-row {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(270deg, #FFF 10.43%, rgba(217, 217, 217, 0.00) 104.56%);
+}
+
+.why-choose-heading {
+    color: #101010;
+    text-align: center;
+    font-family: Neometric;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px;
+}
+
+.why-choose-para {
+    color: #101010;
+    font-family: Neometric;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 10px;
+}
+
+.why-choose-container {
+    width: 60%;
+    height: 100vh;
+}
+
+.number {
+    color: #DDF247;
+    font-family: Neometric;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px;
+}
+
+.speak-to-our-counsellor {
+    margin-top: 20px;
+    padding-top: 50px;
+    width: 100%;
+    background: #DDF247;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.speak-para {
+    color: #101010;
+    font-family: Neometric;
+    font-size: 30px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 20px;
+    border-radius: 10px;
+    background: #FFF;
+    line-height: normal;
+}
+
+.speak-heading {
+    color: #101010;
+    font-family: Neometric;
+    padding: 20px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.five-steps-page {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(270deg, #F8F8F8 0%, rgba(248, 248, 248, 0.00) 12.56%);
+}
+
+.dream-future-container {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 30px;
+    padding: 10px;
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+.register-button {
+    height: 40px;
+    width: 200px;
+    background: #101010;
+    border-radius: 10px;
+    color: #F8F8F8;
+    margin: 10px;
+}
+
+.number2 {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 43px;
+}
+
+.card-container1 {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 30px;
+    padding: 10px;
+    height: 50vh;
+}
+
+.card-container2 {
+    background-color: #DDF247;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    height: 50vh;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-section {
+    background-color: black;
+    padding: 10px;
+    height: 10vh;
+    color: white;
+    text-align: center;
+}
+
+.testimonials-background {
+    background-color: white;
+    background: linear-gradient(270deg, #F8F8F8 3.57%, rgba(248, 248, 248, 0.00) 28.82%);
+    width: 100%;
+    height: 80vh;
+    margin: 20px;
+}
+
+.testimonial-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.test-heading {
+    font-size: 40px;
+}
+
+.testimonial-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    margin: 20px;
+}
+
+.side-by-side {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.boy-card-h {
+    color: #101010;
+    font-family: Neometric;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.boy-card {
+    margin: 20px;
+    color: #101010;
+    font-family: Neometric;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 300px;
+}
+
+.boy-cards-row {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.boy-head {
+    color: #101010;
+    font-family: Neometric;
+    font-size: 40px;
+    margin: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.boy-button-para {
+    color: #101010;
+    font-family: Neometric;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-left: 20px;
+    line-height: normal;
+    border-radius: 10px;
+    padding: 20px;
+    background: #DDF247;
+    width: 300px;
+}
+
+.boy-section-content {
+    background-color: white;
+    width: 60%;
+    height: 100vh;
+    flex-shrink: 0;
+}
+
+.boy-image-content {
+    padding: 20px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 100vh;
+    background: #101010;
+}
+
+.Boy-Image {
+    height: 100vh;
+    width: 200%;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 10px;
+}
+
+.footer-section {
+    background-color: black;
+    padding: 20px;
+    height: 20vh;
+    color: white;
+    text-align: center;
+}
+
+.testimonials-background {
+    background-color: white;
+    background: linear-gradient(270deg, #F8F8F8 3.57%, rgba(248, 248, 248, 0.00) 28.82%);
+    width: 100%;
+    height: 80vh;
+    margin: 20px;
+}
+
+.testimonial-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.test-heading {
+    font-size: 40px;
+}
+
+.testimonial-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    margin: 20px;
+}
+
+.p1 {
+    font-size: 20px;
 }
